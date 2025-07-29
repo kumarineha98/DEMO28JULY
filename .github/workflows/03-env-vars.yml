@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: 🔹 Print hardcoded env values
         run: |
-          echo "👤 Local User: $LOCAL_USER"
+          echo "👤 local User: $LOCAL_USER"
           echo "🌍 Environment: $ENVIRONMENT"
       - name: 🔐 Print Secrets and Variables
         env:
