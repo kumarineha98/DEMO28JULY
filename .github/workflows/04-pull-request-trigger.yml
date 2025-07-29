@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: SonarQube Scan
-        run: echo "🔍 Scanning code using SonarQube"
+        run: echo "🔍Scanning code using SonarQube"
